@@ -4,9 +4,7 @@ import ReactMarkdown from "react-markdown";
 import MarkdownComponent from "../components/Common/Markdown/MarkdownComponent";
 import BorderedTitleCaption from "../components/Common/Caption/BorderedTitleCaption";
 import aboutStyles from "../styles/About/About.module.css";
-import "@fortawesome/fontawesome-svg-core/styles.css";
-import { config } from "@fortawesome/fontawesome-svg-core";
-config.autoAddCss = false; /* eslint-disable import/first */
+
 const aboutFolder = "about";
 
 const About = ({ posts }) => {
