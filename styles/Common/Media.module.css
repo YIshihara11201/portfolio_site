@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.icon {
+    padding: 10px;
+    font-size: 22px;
+}
+
+a.social:hover {
+    transform: translateY(-2px);
+}
+
+a.mail {
+    color: 	#8d3043;
+}
+
+a.github {
+    color: 	#8d3043;
+}
+
+a.linkedin {
+    color: 	#8d3043;
+}
+
+@media (min-width:1025px) { 
+    .icon {
+        padding: 7px;
+        font-size: 25px;
+    }
+}

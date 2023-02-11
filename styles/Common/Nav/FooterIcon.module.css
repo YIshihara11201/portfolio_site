@@ -1,0 +1,20 @@
+.container {
+    flex-basis: 33%;
+}
+
+.container a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon {
+    font-size: 22px;
+}
+
+.text {
+    padding-top: 5px;
+    font-size: 11px;
+}

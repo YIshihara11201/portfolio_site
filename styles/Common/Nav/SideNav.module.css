@@ -1,0 +1,67 @@
+/* The sidebar menu */
+.container {
+  /* overflow-x: hidden; */
+  position: fixed;
+  left: 0px;
+  display: none;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 250px;
+  min-width: 250px;
+  height: 100%;  
+  min-height: 100vh;
+  background-color: transparent;
+  background-color: rgb(165, 34, 34);
+  z-index: 8000;
+}
+
+.container a {
+  font-size: 27px;
+  margin-top: 40px;
+  margin-left: 10px;
+  color: whitesmoke;
+}
+
+.container a:hover {
+  color: #f1f1f1;
+}
+
+.container button {
+  border-radius: 5px;
+  margin-top: 60px;
+  padding: 0.5rem;
+  background-color: tomato;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume {
+  font-size: 22px !important;
+  margin-left: 0px !important;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 30px;
+}
+
+.media {
+  position: absolute;
+  bottom: 100px;
+}
+
+.acknowledgement {
+  position: absolute;
+  bottom: 30px;
+  font-size: 14px;
+  padding: 0px 10px;
+  color: whitesmoke;
+}
+
+@media (min-width:1025px) { 
+    .container {
+      display: flex;
+    }
+}

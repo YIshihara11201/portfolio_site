@@ -1,0 +1,39 @@
+.datebar_container {
+  /* position: fixed; */
+  /* right: 5px; */
+  /* top: 8px; */
+  display: none;
+  justify-content: flex-end;
+  width: 100%;
+  height: 1.5em;
+}
+
+.datebar_left_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: right;
+  width: 30%;
+  padding-right: 15px;
+  font-size: 20;
+  background-image: linear-gradient(90deg, rgb(250, 235, 215), rgb(163, 21, 21));
+  color: black;
+}
+
+.datebar_right_box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 4%;
+  border-radius: 0px 1.3rem 1.3rem 0px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-style: italic;
+}
+
+@media (min-width:1025px) {
+  .datebar_container {
+      display: flex;
+  }
+}

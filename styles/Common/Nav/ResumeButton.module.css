@@ -1,0 +1,18 @@
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume button {
+  height: 80%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: tomato;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.resume a {
+  font-size: 14px;
+  color: whitesmoke;
+}

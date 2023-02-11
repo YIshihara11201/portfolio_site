@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%; 
+}
+
+.inner_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 100px;
+    margin-bottom: 120px;
+}
+
+@media (min-width:1025px) { 
+    .container {
+        width: calc(100vw - 250px);
+        margin-left: 250px;
+    }
+
+    .inner_container {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}

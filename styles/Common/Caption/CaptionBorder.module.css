@@ -1,0 +1,7 @@
+.caption_border {
+    margin-top: -3px;
+    color: black;
+    background-color: black;
+    border: 1.5px solid black;
+    border-radius: 2.3px;
+}

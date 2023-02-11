@@ -1,0 +1,19 @@
+.year {
+    /* position: fixed; */
+    /* top: 35px; */
+    /* right: 30px; */
+    display: none;
+    justify-content: flex-end;
+    font-size: 40px;
+    font-family: "Garamond";
+    font-style: italic;
+    padding-right: 10px;
+    color: black;
+    opacity: 0.5;
+}
+
+@media (min-width:1025px) {
+    .year {
+        display: flex;
+    }
+}

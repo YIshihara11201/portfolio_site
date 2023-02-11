@@ -1,0 +1,23 @@
+.caption_container {
+    display: flex;
+    height: 30px;
+    flex-direction: row;
+    border: 2.8px solid black;
+  }
+  
+  .caption_left_box {
+    display: flex;
+    width: 13%;
+    background-color: black; 
+  }
+  
+  .caption_right_box {
+    display: flex;
+    width: 87%;
+    background-color: rgb(255, 245, 195);
+    color: black;
+    /* font-size: 0.95rem; */
+    font-size: 1.2rem;
+    justify-content: center;
+    align-items: center;
+  }

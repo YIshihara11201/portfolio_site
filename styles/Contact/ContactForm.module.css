@@ -1,0 +1,93 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.title {
+    display: none;
+}
+
+.name_container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.email_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.message_container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.button_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.name {
+    height: 1.5rem;
+    font-size: 1rem;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.email {
+    height: 1.5rem;
+    padding: 15px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.message {
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.submit_button {
+    background-color: "#FF69B4";
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.media_container {
+    display: flex;
+}
+
+@media (min-width:1025px) {
+    .title {
+        display: block;
+    }
+    
+    .media_container {
+        display: none;
+    }
+    
+    .name {
+        font-size: 1.2rem;
+    }
+
+    .email {
+        font-size: 1.2rem;
+    }
+
+    .message {
+        height: 220px;
+        width: 400px;
+        font-size: 1.2rem;
+    }
+}
