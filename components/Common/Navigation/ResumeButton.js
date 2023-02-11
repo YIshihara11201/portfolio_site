@@ -4,7 +4,7 @@ const ResumeButton = () => {
   return (
     <div className={resumeButtonStyles.resume}>
       <button>
-        <a href="https://drive.google.com/file/d/1LDYYngU9fNAYTXMpx3U0FhyOLBXitiDy/view?usp=sharing">
+        <a href="https://drive.google.com/file/d/1hDYOTOyXV-C2fGbSx1iFeGW0bdMRp5cq/view?usp=sharing">
           Resume
         </a>
       </button>
