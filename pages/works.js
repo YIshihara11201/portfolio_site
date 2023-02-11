@@ -10,8 +10,8 @@ const Works = ({ posts }) => {
       <div className={workStyles.caption}>
         <BorderedTitleCaption
           title={"Works"}
-          captionWidth={120}
-          borderWidth={200}
+          captionWidth={160}
+          borderWidth={210}
         />
       </div>
       <div className={workStyles.inner_container}>
