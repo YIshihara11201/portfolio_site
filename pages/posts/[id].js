@@ -16,8 +16,8 @@ const Article = ({ post }) => {
         <div className={articleStyles.caption}>
           <BorderedTitleCaption
             title={post.frontmatter.title}
-            captionWidth={180}
-            borderWidth={240}
+            captionWidth={210}
+            borderWidth={250}
           />
         </div>
         <ReactMarkdown components={MarkdownComponent}>
