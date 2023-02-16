@@ -6,14 +6,14 @@ description: "Experience list"
 
 ## Work Experience
 ###  iOS developer
-#### DPCode Inc. / Vancouver, Canada / July 2022 – Oct 2022  
+#### DPCode Academy / Vancouver, Canada / July 2022 – Oct 2022  
 - Add Google authentication and login functionalities using GoogleSignIn library.  
 - Implement UITableViews for displaying user data fetched from google calendar API.  
 - Replace existing script-based PDF Generator with the one of fast-speed utilizing PDFKit.  
 - Write Unit-test code including Core Data, applying various techniques to isolate dependencies from test code.  
 
 ### System engineer
-#### Meitec Fielders. / Tokyo, Japan / Sep 2020 - Oct 2021  
+#### Meitec Fielders / Tokyo, Japan / Sep 2020 - Oct 2021  
 - Design Database to collect information on global factories energy consumption taking into account the operation difference and unit price conversion among global plants.
 - Implement visualization system using MySQL and BI tools caring for user-friendliness for non-technical employees.
 
@@ -26,7 +26,7 @@ description: "Experience list"
 #### [Chiba University](https://www.chiba-u.ac.jp/e/) / Chiba, Japan / MEng in Applied and Cognitive Informatics
 April 2017 – March 2019
 #### [Chiba University](https://www.chiba-u.ac.jp/e/) / Chiba, Japan / BEng in Informatics and Imaging Systems
-April 2017 – March 2019
+April 2013 – March 2017
 
 #### [Cornerstone International Community College of Canada](https://ciccc.ca/) / Vancouver, Canada / Web and Mobile App Development Diploma
 Jan 2022 – Dec 2022
