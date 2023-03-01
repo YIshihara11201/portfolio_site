@@ -12,34 +12,34 @@ GCD / MVVM / UserNotifications / PostgreSQL /
 Structured Concurrency / SwiftUI / Vapor / WebSockets
 ```
 
-## Release
+# Release
 I published the app to the App Store!🎉  
 [App Store Links](https://apps.apple.com/us/app/lets-switch/id1662123590)  
 
 ![App Store screenshots{700:157/100}](https://user-images.githubusercontent.com/98417271/218228757-01e623f4-418a-4884-903f-4f5dd93bff9d.png)  
 
-## Introduction
+# Introduction
 
-### Backgorund
+## Backgorund
 Switching tasks is always hard, especially you are studying, learning new things on your own. Once you finish studying math, you must feel unwilling to start reading history textbook. Without some kind of pressure, switching tasks is painstaking. I always feel guilty after realizing how valuable the time I was procrastinating was.
 
-### Solution
+## Solution
 This application takes advantage of peer pressure that you gain when you declare to do something in front of others. You will register your task in advance for some time slots in a day to match other user’s task. When the time comes, you are invited to matching room, there, you can send and receive ale to and from your partner, which will boost your motivation.
 
-### Features
+## Features
 - PushNotifications
 - WebSockets
 - Database management for task scheduling with Vapor
 
-### Requirements
+## Requirements
 - Swift: version 5.6
 - iOS: 16.1 or later
 - Vapor: version 4.0
 
-### Repository
+## Repository
   [Let's Switch Repository](https://github.com/YIshihara11201/Lets_Switch)
 
-## Usage
+# Usage
 
 1. You will register a task. According to registration state, you will see different messages.
 
@@ -54,7 +54,7 @@ This application takes advantage of peer pressure that you gain when you declare
 
 4. You made a commitment, and will have no way to procrastinate switching tasks.
 
-## Takeaways
+# Takeaways
 
 Actual implementation considering dividing websocket rooms
 ```swift
