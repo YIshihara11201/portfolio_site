@@ -19,4 +19,4 @@ description: "Skill list"
 - A good understanding in design patterns; Delegate pattern, Adapter pattern, Observer patter, etc..., and able to apply them in development to write readable, maintainable, and scalable code.  
 - Familiar with Data structures and Algorithms. Write code caring for Time&Space complexity.  
 - Skilled in modern Typescript framework including Next.js, React.js
-- Perseverance to achieve objects!!!
+- Perseverance to achieve goals!!!
